@@ -28,6 +28,32 @@ var e3 = Employee(employeeId: 2, employeeName: "Neeraj", employeeEmail: "nj@gmai
 //    return
 //}
 
-var e4 = try! Employee(employeeId: 3, employeeName: "Neeraj", employeeEmail: "nj@gmail.com", employeeSalary: 700)
 
-print(e4?.employeeId)
+do{
+    let e4 = Employee(employeeId: 3, employeeName: "Neeraj", employeeEmail: "nj@gmail.com", employeeSalary: 10000)
+    
+    if let e = e4
+    {
+        print(e.employeeId)
+    }
+    
+    try e4!.setSalary(salary: 700)
+    print(e4!.employeeSalary)
+}
+catch EmployeeError.InvalidEmail
+{
+    print("Invalid Email ID")
+}
+catch EmployeeError.InvalidSalary
+{
+    print("Invalid Salary")
+}
+catch EmployeeError.InvalidSalaryWithMessege(let msg)
+{
+    print(msg)
+}
+
+catch
+{
+    print(error.localizedDescription)
+}

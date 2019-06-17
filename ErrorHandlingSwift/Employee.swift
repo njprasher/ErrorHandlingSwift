@@ -34,8 +34,14 @@ class Employee
             return nil
         }
         self.employeeSalary = employeeSalary
-        
-        
+    }
+    
+    func setSalary(salary: Double) throws{
+        if salary < 1000
+        {
+            throw EmployeeError.InvalidSalaryWithMessege(msg: "Invalid Salary \(salary) < 1000.0")
+        }
+        self.employeeSalary = salary
     }
 }
 
