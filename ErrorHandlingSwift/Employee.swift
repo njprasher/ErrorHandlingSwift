@@ -55,6 +55,11 @@ class Employee
         }
         
         x = x + 100
+        
+        defer
+        {
+            print("I'm in second defer")
+        }
         print(x)
     }
 }
