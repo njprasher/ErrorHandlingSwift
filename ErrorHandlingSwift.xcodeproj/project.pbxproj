@@ -10,6 +10,7 @@
 		4CAA0F0222B847E9004A8209 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA0F0122B847E9004A8209 /* main.swift */; };
 		4CAA0F0922B84C7D004A8209 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA0F0822B84C7D004A8209 /* Employee.swift */; };
 		4CAA0F0B22B84E6E004A8209 /* ErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA0F0A22B84E6E004A8209 /* ErrorEnum.swift */; };
+		4CAA0F0D22B85687004A8209 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA0F0C22B85687004A8209 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		4CAA0F0122B847E9004A8209 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4CAA0F0822B84C7D004A8209 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		4CAA0F0A22B84E6E004A8209 /* ErrorEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorEnum.swift; sourceTree = "<group>"; };
+		4CAA0F0C22B85687004A8209 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				4CAA0F0122B847E9004A8209 /* main.swift */,
 				4CAA0F0822B84C7D004A8209 /* Employee.swift */,
 				4CAA0F0A22B84E6E004A8209 /* ErrorEnum.swift */,
+				4CAA0F0C22B85687004A8209 /* Student.swift */,
 			);
 			path = ErrorHandlingSwift;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 				4CAA0F0222B847E9004A8209 /* main.swift in Sources */,
 				4CAA0F0922B84C7D004A8209 /* Employee.swift in Sources */,
 				4CAA0F0B22B84E6E004A8209 /* ErrorEnum.swift in Sources */,
+				4CAA0F0D22B85687004A8209 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

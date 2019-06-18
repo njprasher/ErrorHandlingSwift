@@ -9,6 +9,7 @@
 import Foundation
 enum  EmployeeError: Error {
     case InvalidEmail
+    case InvalidEmailWithMessage(msg: String)
     case InvalidSalary
     case InvalidSalaryWithMessege(msg: String)
 }

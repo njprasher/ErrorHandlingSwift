@@ -43,5 +43,19 @@ class Employee
         }
         self.employeeSalary = salary
     }
+    
+    func deferedExample()
+    {
+        var x = 100;
+        
+        print(x)
+        defer
+        {
+            print("I'm in defer block")
+        }
+        
+        x = x + 100
+        print(x)
+    }
 }
 
